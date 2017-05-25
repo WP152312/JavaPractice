@@ -22,6 +22,7 @@ public class DBTest {
 		db.search();
 		db.update();
 		db.delete();
+		
 	}
 	
 	public static void main(String[] args) {
@@ -33,7 +34,14 @@ public class DBTest {
 
 		IDBManager b  = IDBManager.getDBObject(IDBManager.ORACLE_DATABASE);
 		crud(b);
+		
+		
+		
+		
+		
 
+		
+		
 	}
 
 }

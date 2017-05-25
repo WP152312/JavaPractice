@@ -40,8 +40,7 @@ public class SybaseDB implements IDBManager {
 	 */
 	@Override
 	public void update() {
-		System.out.println("Sybase DB 변경");
-		
+		System.out.println("Sybase DB 변경");	
 	}
 
 	/* (non-Javadoc)

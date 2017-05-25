@@ -27,7 +27,6 @@ public interface IDBManager {
 	
 	public static IDBManager getDBObject(String database){
 		
-		
 		if(database.equals(ORACLE_DATABASE)){
 			return new OracleDB ();
 		}

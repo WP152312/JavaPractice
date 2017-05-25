@@ -43,7 +43,6 @@ public class OracleDB implements IDBManager {
 		System.out.println("Oracle DB 변경");
 		
 	}
-
 	/* (non-Javadoc)
 	 * @see org.dimigo.interfaces.IDBManager#delete()
 	 */
